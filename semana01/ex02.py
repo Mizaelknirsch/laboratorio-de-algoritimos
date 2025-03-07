@@ -1,9 +1,7 @@
-idade = input("Digite sua idade:"  )
-nome = input("Digite seu nome" )
-cpf = input("digite seu cpf ")
-peso = input("Digite seu peso")
-DataDeNascimento = input("Digite sua data de nascimeto ")
-cidade = input("Qual sua cidade?" )
-estaddo = input("qual seu estado?" )
-velocidade = input("qual sua velocidade?" )
-preco = float(input("qual o preço do produto"))
+Faça um algoritmo que calcule a área de um círculo:
+
+π = 3.14
+r = 20
+
+resultado = π* r**2 
+print("resultado:", resultado)
