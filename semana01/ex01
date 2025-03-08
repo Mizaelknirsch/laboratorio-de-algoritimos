@@ -1,35 +1,52 @@
-+
-n1 = float(input("Digite o primeiro numero:" ))
-n2 = float(input("Digite o segundo numero:" ))
-resultado = n1 + n2 
-print("resultado:", resultado )
+exercícios primeira semana
 
- -
-n1 = float(input("Digite o primeiro numero:" ))
-n2 = float(input("Digite o segundo numero:" ))
-resultado = n1 - n2 
-print("resultado:", resultado )
+n1 = int(input("quantos cavalos:"))
+n2 = 80*4
+resultado = n1*n2
+print("pagar:", resultado)
 
-dobro
-n1=float(input("Digite um numero:"))
-n2=float(input("Digite um segundo numero:"))
+------------------------------------------------
 
-n1=n1*2 
-n2=n2*2 
-print("Resultado do primeiro numero:", n1,  "resultado do segundo numero:", n2)
+peca = float(input("valor da peça de roupa:"))
+cal1 = float(peca * 30/100)
+cal2 = peca + cal1
+print("valor: ", cal2)
 
 
-divisao
 
-n1 = float(input("Digite um numero:"))
-n2 = float(input("Digite o segundo numero:"))
-resultado = n1/n2 
-print("resultado:", resultado)
+-----------------------------------
 
-n1 = float(input("Digite um numero:"))
-n2 = float(input("Digite o segundo numero:"))
-resultado = n2/n1 
-print("resultado:", resultado)
+
+
+num1 =  float(input("Escolha um numero pra dobrar ele: "))
+num2 = float(input("Escolha um numero pra dividir ele: "))
+cal1 =  num1*2
+cal2 = num2/2
+print("resposta primeiro numero:", cal1)
+print("resposta segundo numero: ", cal2)
+
+ --------------------------------------------------
+
+
+ano = int(input("Qual ano que faz aniversario: "))
+idade = int (2025)
+resto = idade - ano 
+print("Sua idade: ", resto)
+
+
+
+---------------------------------------------
+
+
+carros = int(input("Quantos carros: "))
+pneu = float (395.40)
+valor = carros*pneu
+print("Valor total: ", valor )
+
+
+
+
+
 
 
 
